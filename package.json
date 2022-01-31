@@ -1,0 +1,21 @@
+{
+  "name": "freelance-task-jan-be",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.14.1"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
